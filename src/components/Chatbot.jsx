@@ -37,7 +37,7 @@ export default function Chatbot() {
       const data = await res.json()
       setMessages(prev => [...prev, { role: 'assistant', text: data.response }])
     } catch {
-      setMessages(prev => [...prev, { role: 'assistant', text: 'Could not reach Ollama. Make sure it\'s running on localhost:11434.' }])
+      setMessages(prev => [...prev, { role: 'assistant', text: 'Error 67: Lock in, you cant use it without ollama. Look at readme. Lowk its not worth it lol.' }])
     } finally {
       setLoading(false)
     }
