@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom'
-import { Sun, Moon, BookOpen, Layers, CheckCircle, ClipboardList, Menu, TrendingUp, AlertCircle } from 'lucide-react'
+import { Sun, Moon, BookOpen, Layers, CheckCircle, ClipboardList, Menu, TrendingUp, AlertCircle, Github } from 'lucide-react'
 import classNames from 'classnames'
 
 import StudyGuide from './pages/StudyGuide'
@@ -46,6 +46,10 @@ function Layout() {
           ))}
         </nav>
         <div className="sidebar-bottom">
+          <a href="https://github.com/Am1rj0n/Nocti-Mechatronics" target="_blank" rel="noopener noreferrer" className="sidebar-social">
+            <Github size={16} />
+            <span>GitHub</span>
+          </a>
           <button className="theme-toggle" onClick={() => setTheme(t => t === 'dark' ? 'light' : 'dark')}>
             {theme === 'dark' ? <Sun size={16} /> : <Moon size={16} />}
             <span>{theme === 'dark' ? 'Light' : 'Dark'}</span>

@@ -87,12 +87,7 @@ body {
 .sidebar-link:hover { background: var(--bg-secondary); color: var(--text-primary); }
 .sidebar-link.active { background: var(--bg-secondary); color: var(--text-primary); font-weight: 600; }
 
-.sidebar-bottom {
-  border-top: 1px solid var(--border-color);
-  padding-top: 12px;
-}
-
-.theme-toggle {
+.theme-toggle, .sidebar-social {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -105,9 +100,20 @@ body {
   font-size: 14px;
   font-weight: 500;
   cursor: pointer;
-  transition: background 0.15s;
+  text-decoration: none;
+  transition: all 0.15s;
 }
-.theme-toggle:hover { background: var(--bg-secondary); }
+.theme-toggle:hover, .sidebar-social:hover { 
+  background: var(--bg-secondary); 
+  color: var(--text-primary);
+}
+.sidebar-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  border-top: 1px solid var(--border-color);
+  padding-top: 12px;
+}
 
 /* ── Main Panel ── */
 .main {
