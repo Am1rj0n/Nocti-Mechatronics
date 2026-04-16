@@ -1,0 +1,448 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "vite.config.js",
+      "file_type": "code",
+      "source_file": "vite.config.js",
+      "source_location": "L1",
+      "id": "vite_config_js",
+      "community": 9,
+      "norm_label": "vite.config.js"
+    },
+    {
+      "label": "main.jsx",
+      "file_type": "code",
+      "source_file": "src/main.jsx",
+      "source_location": "L1",
+      "id": "src_main_jsx",
+      "community": 10,
+      "norm_label": "main.jsx"
+    },
+    {
+      "label": "App.jsx",
+      "file_type": "code",
+      "source_file": "src/App.jsx",
+      "source_location": "L1",
+      "id": "src_app_jsx",
+      "community": 1,
+      "norm_label": "app.jsx"
+    },
+    {
+      "label": "Layout()",
+      "file_type": "code",
+      "source_file": "src/App.jsx",
+      "source_location": "L14",
+      "id": "app_layout",
+      "community": 1,
+      "norm_label": "layout()"
+    },
+    {
+      "label": "App()",
+      "file_type": "code",
+      "source_file": "src/App.jsx",
+      "source_location": "L77",
+      "id": "app_app",
+      "community": 1,
+      "norm_label": "app()"
+    },
+    {
+      "label": "storage.js",
+      "file_type": "code",
+      "source_file": "src/utils/storage.js",
+      "source_location": "L1",
+      "id": "src_utils_storage_js",
+      "community": 0,
+      "norm_label": "storage.js"
+    },
+    {
+      "label": "saveScore()",
+      "file_type": "code",
+      "source_file": "src/utils/storage.js",
+      "source_location": "L1",
+      "id": "storage_savescore",
+      "community": 0,
+      "norm_label": "savescore()"
+    },
+    {
+      "label": "getScores()",
+      "file_type": "code",
+      "source_file": "src/utils/storage.js",
+      "source_location": "L11",
+      "id": "storage_getscores",
+      "community": 2,
+      "norm_label": "getscores()"
+    },
+    {
+      "label": "trackMissed()",
+      "file_type": "code",
+      "source_file": "src/utils/storage.js",
+      "source_location": "L20",
+      "id": "storage_trackmissed",
+      "community": 0,
+      "norm_label": "trackmissed()"
+    },
+    {
+      "label": "getMissed()",
+      "file_type": "code",
+      "source_file": "src/utils/storage.js",
+      "source_location": "L33",
+      "id": "storage_getmissed",
+      "community": 3,
+      "norm_label": "getmissed()"
+    },
+    {
+      "label": "clearMissed()",
+      "file_type": "code",
+      "source_file": "src/utils/storage.js",
+      "source_location": "L44",
+      "id": "storage_clearmissed",
+      "community": 0,
+      "norm_label": "clearmissed()"
+    },
+    {
+      "label": "Chatbot.jsx",
+      "file_type": "code",
+      "source_file": "src/components/Chatbot.jsx",
+      "source_location": "L1",
+      "id": "src_components_chatbot_jsx",
+      "community": 5,
+      "norm_label": "chatbot.jsx"
+    },
+    {
+      "label": "Chatbot()",
+      "file_type": "code",
+      "source_file": "src/components/Chatbot.jsx",
+      "source_location": "L5",
+      "id": "chatbot_chatbot",
+      "community": 5,
+      "norm_label": "chatbot()"
+    },
+    {
+      "label": "MissedQuestions.jsx",
+      "file_type": "code",
+      "source_file": "src/pages/MissedQuestions.jsx",
+      "source_location": "L1",
+      "id": "src_pages_missedquestions_jsx",
+      "community": 6,
+      "norm_label": "missedquestions.jsx"
+    },
+    {
+      "label": "MissedQuestions()",
+      "file_type": "code",
+      "source_file": "src/pages/MissedQuestions.jsx",
+      "source_location": "L6",
+      "id": "missedquestions_missedquestions",
+      "community": 6,
+      "norm_label": "missedquestions()"
+    },
+    {
+      "label": "FullTest.jsx",
+      "file_type": "code",
+      "source_file": "src/pages/FullTest.jsx",
+      "source_location": "L1",
+      "id": "src_pages_fulltest_jsx",
+      "community": 2,
+      "norm_label": "fulltest.jsx"
+    },
+    {
+      "label": "FullTest()",
+      "file_type": "code",
+      "source_file": "src/pages/FullTest.jsx",
+      "source_location": "L8",
+      "id": "fulltest_fulltest",
+      "community": 2,
+      "norm_label": "fulltest()"
+    },
+    {
+      "label": "Progress.jsx",
+      "file_type": "code",
+      "source_file": "src/pages/Progress.jsx",
+      "source_location": "L1",
+      "id": "src_pages_progress_jsx",
+      "community": 7,
+      "norm_label": "progress.jsx"
+    },
+    {
+      "label": "Progress()",
+      "file_type": "code",
+      "source_file": "src/pages/Progress.jsx",
+      "source_location": "L5",
+      "id": "progress_progress",
+      "community": 7,
+      "norm_label": "progress()"
+    },
+    {
+      "label": "StudyGuide.jsx",
+      "file_type": "code",
+      "source_file": "src/pages/StudyGuide.jsx",
+      "source_location": "L1",
+      "id": "src_pages_studyguide_jsx",
+      "community": 8,
+      "norm_label": "studyguide.jsx"
+    },
+    {
+      "label": "StudyGuide()",
+      "file_type": "code",
+      "source_file": "src/pages/StudyGuide.jsx",
+      "source_location": "L5",
+      "id": "studyguide_studyguide",
+      "community": 8,
+      "norm_label": "studyguide()"
+    },
+    {
+      "label": "QuizGenerator.jsx",
+      "file_type": "code",
+      "source_file": "src/pages/QuizGenerator.jsx",
+      "source_location": "L1",
+      "id": "src_pages_quizgenerator_jsx",
+      "community": 3,
+      "norm_label": "quizgenerator.jsx"
+    },
+    {
+      "label": "QuizGenerator()",
+      "file_type": "code",
+      "source_file": "src/pages/QuizGenerator.jsx",
+      "source_location": "L8",
+      "id": "quizgenerator_quizgenerator",
+      "community": 3,
+      "norm_label": "quizgenerator()"
+    },
+    {
+      "label": "Flashcards.jsx",
+      "file_type": "code",
+      "source_file": "src/pages/Flashcards.jsx",
+      "source_location": "L1",
+      "id": "src_pages_flashcards_jsx",
+      "community": 4,
+      "norm_label": "flashcards.jsx"
+    },
+    {
+      "label": "shuffleArray()",
+      "file_type": "code",
+      "source_file": "src/pages/Flashcards.jsx",
+      "source_location": "L7",
+      "id": "flashcards_shufflearray",
+      "community": 4,
+      "norm_label": "shufflearray()"
+    },
+    {
+      "label": "Flashcards()",
+      "file_type": "code",
+      "source_file": "src/pages/Flashcards.jsx",
+      "source_location": "L16",
+      "id": "flashcards_flashcards",
+      "community": 4,
+      "norm_label": "flashcards()"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_src": "src_app_jsx",
+      "_tgt": "app_layout",
+      "source": "src_app_jsx",
+      "target": "app_layout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L77",
+      "weight": 1.0,
+      "_src": "src_app_jsx",
+      "_tgt": "app_app",
+      "source": "src_app_jsx",
+      "target": "app_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/utils/storage.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_src": "src_utils_storage_js",
+      "_tgt": "storage_savescore",
+      "source": "src_utils_storage_js",
+      "target": "storage_savescore",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/utils/storage.js",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_src": "src_utils_storage_js",
+      "_tgt": "storage_getscores",
+      "source": "src_utils_storage_js",
+      "target": "storage_getscores",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/utils/storage.js",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_src": "src_utils_storage_js",
+      "_tgt": "storage_trackmissed",
+      "source": "src_utils_storage_js",
+      "target": "storage_trackmissed",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/utils/storage.js",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_src": "src_utils_storage_js",
+      "_tgt": "storage_getmissed",
+      "source": "src_utils_storage_js",
+      "target": "storage_getmissed",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/utils/storage.js",
+      "source_location": "L44",
+      "weight": 1.0,
+      "_src": "src_utils_storage_js",
+      "_tgt": "storage_clearmissed",
+      "source": "src_utils_storage_js",
+      "target": "storage_clearmissed",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/pages/FullTest.jsx",
+      "source_location": "L46",
+      "weight": 1.0,
+      "_src": "fulltest_fulltest",
+      "_tgt": "storage_getscores",
+      "source": "storage_getscores",
+      "target": "fulltest_fulltest"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/pages/QuizGenerator.jsx",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_src": "quizgenerator_quizgenerator",
+      "_tgt": "storage_getmissed",
+      "source": "storage_getmissed",
+      "target": "quizgenerator_quizgenerator"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Chatbot.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_src": "src_components_chatbot_jsx",
+      "_tgt": "chatbot_chatbot",
+      "source": "src_components_chatbot_jsx",
+      "target": "chatbot_chatbot",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/MissedQuestions.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_src": "src_pages_missedquestions_jsx",
+      "_tgt": "missedquestions_missedquestions",
+      "source": "src_pages_missedquestions_jsx",
+      "target": "missedquestions_missedquestions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/FullTest.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_src": "src_pages_fulltest_jsx",
+      "_tgt": "fulltest_fulltest",
+      "source": "src_pages_fulltest_jsx",
+      "target": "fulltest_fulltest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Progress.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_src": "src_pages_progress_jsx",
+      "_tgt": "progress_progress",
+      "source": "src_pages_progress_jsx",
+      "target": "progress_progress",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/StudyGuide.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_src": "src_pages_studyguide_jsx",
+      "_tgt": "studyguide_studyguide",
+      "source": "src_pages_studyguide_jsx",
+      "target": "studyguide_studyguide",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/QuizGenerator.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_src": "src_pages_quizgenerator_jsx",
+      "_tgt": "quizgenerator_quizgenerator",
+      "source": "src_pages_quizgenerator_jsx",
+      "target": "quizgenerator_quizgenerator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Flashcards.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_src": "src_pages_flashcards_jsx",
+      "_tgt": "flashcards_shufflearray",
+      "source": "src_pages_flashcards_jsx",
+      "target": "flashcards_shufflearray",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Flashcards.jsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_src": "src_pages_flashcards_jsx",
+      "_tgt": "flashcards_flashcards",
+      "source": "src_pages_flashcards_jsx",
+      "target": "flashcards_flashcards",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}

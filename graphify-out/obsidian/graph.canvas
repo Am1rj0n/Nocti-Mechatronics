@@ -1,0 +1,452 @@
+{
+  "nodes": [
+    {
+      "id": "g0",
+      "type": "group",
+      "label": "Local Storage Utility",
+      "x": 0,
+      "y": 0,
+      "width": 600,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "n_storage_clearmissed",
+      "type": "file",
+      "file": "graphify/obsidian/clearMissed().md",
+      "x": 20,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_storage_savescore",
+      "type": "file",
+      "file": "graphify/obsidian/saveScore().md",
+      "x": 220,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_utils_storage_js",
+      "type": "file",
+      "file": "graphify/obsidian/storage.js.md",
+      "x": 420,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_storage_trackmissed",
+      "type": "file",
+      "file": "graphify/obsidian/trackMissed().md",
+      "x": 20,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g1",
+      "type": "group",
+      "label": "Main App Layout",
+      "x": 680,
+      "y": 0,
+      "width": 600,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "n_app_app",
+      "type": "file",
+      "file": "graphify/obsidian/App().md",
+      "x": 700,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_app_jsx",
+      "type": "file",
+      "file": "graphify/obsidian/App.jsx.md",
+      "x": 900,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_app_layout",
+      "type": "file",
+      "file": "graphify/obsidian/Layout().md",
+      "x": 1100,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g2",
+      "type": "group",
+      "label": "Full Test Engine",
+      "x": 1360,
+      "y": 0,
+      "width": 600,
+      "height": 400,
+      "color": "3"
+    },
+    {
+      "id": "n_fulltest_fulltest",
+      "type": "file",
+      "file": "graphify/obsidian/FullTest().md",
+      "x": 1380,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_pages_fulltest_jsx",
+      "type": "file",
+      "file": "graphify/obsidian/FullTest.jsx.md",
+      "x": 1580,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_storage_getscores",
+      "type": "file",
+      "file": "graphify/obsidian/getScores().md",
+      "x": 1780,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g3",
+      "type": "group",
+      "label": "Quiz Generator Logic",
+      "x": 2040,
+      "y": 0,
+      "width": 600,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "n_quizgenerator_quizgenerator",
+      "type": "file",
+      "file": "graphify/obsidian/QuizGenerator().md",
+      "x": 2060,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_pages_quizgenerator_jsx",
+      "type": "file",
+      "file": "graphify/obsidian/QuizGenerator.jsx.md",
+      "x": 2260,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_storage_getmissed",
+      "type": "file",
+      "file": "graphify/obsidian/getMissed().md",
+      "x": 2460,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g4",
+      "type": "group",
+      "label": "Flashcard Logic",
+      "x": 0,
+      "y": 480,
+      "width": 600,
+      "height": 400,
+      "color": "5"
+    },
+    {
+      "id": "n_flashcards_flashcards",
+      "type": "file",
+      "file": "graphify/obsidian/Flashcards().md",
+      "x": 20,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_pages_flashcards_jsx",
+      "type": "file",
+      "file": "graphify/obsidian/Flashcards.jsx.md",
+      "x": 220,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_flashcards_shufflearray",
+      "type": "file",
+      "file": "graphify/obsidian/shuffleArray().md",
+      "x": 420,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g5",
+      "type": "group",
+      "label": "AI Chatbot Component",
+      "x": 680,
+      "y": 480,
+      "width": 600,
+      "height": 400,
+      "color": "6"
+    },
+    {
+      "id": "n_chatbot_chatbot",
+      "type": "file",
+      "file": "graphify/obsidian/Chatbot().md",
+      "x": 700,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_components_chatbot_jsx",
+      "type": "file",
+      "file": "graphify/obsidian/Chatbot.jsx.md",
+      "x": 900,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g6",
+      "type": "group",
+      "label": "Missed Questions View",
+      "x": 1360,
+      "y": 480,
+      "width": 600,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "n_missedquestions_missedquestions",
+      "type": "file",
+      "file": "graphify/obsidian/MissedQuestions().md",
+      "x": 1380,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_pages_missedquestions_jsx",
+      "type": "file",
+      "file": "graphify/obsidian/MissedQuestions.jsx.md",
+      "x": 1580,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g7",
+      "type": "group",
+      "label": "Progress Analytics",
+      "x": 2040,
+      "y": 480,
+      "width": 600,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "n_progress_progress",
+      "type": "file",
+      "file": "graphify/obsidian/Progress().md",
+      "x": 2060,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_pages_progress_jsx",
+      "type": "file",
+      "file": "graphify/obsidian/Progress.jsx.md",
+      "x": 2260,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g8",
+      "type": "group",
+      "label": "Study Guide View",
+      "x": 0,
+      "y": 960,
+      "width": 600,
+      "height": 400,
+      "color": "3"
+    },
+    {
+      "id": "n_studyguide_studyguide",
+      "type": "file",
+      "file": "graphify/obsidian/StudyGuide().md",
+      "x": 20,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_pages_studyguide_jsx",
+      "type": "file",
+      "file": "graphify/obsidian/StudyGuide.jsx.md",
+      "x": 220,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g9",
+      "type": "group",
+      "label": "Build Configuration",
+      "x": 680,
+      "y": 960,
+      "width": 600,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "n_vite_config_js",
+      "type": "file",
+      "file": "graphify/obsidian/vite.config.js.md",
+      "x": 700,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g10",
+      "type": "group",
+      "label": "Main Entry Point",
+      "x": 1360,
+      "y": 960,
+      "width": 600,
+      "height": 400,
+      "color": "5"
+    },
+    {
+      "id": "n_src_main_jsx",
+      "type": "file",
+      "file": "graphify/obsidian/main.jsx.md",
+      "x": 1380,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_src_app_jsx_app_layout",
+      "fromNode": "n_src_app_jsx",
+      "toNode": "n_app_layout",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_app_jsx_app_app",
+      "fromNode": "n_src_app_jsx",
+      "toNode": "n_app_app",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_utils_storage_js_storage_savescore",
+      "fromNode": "n_src_utils_storage_js",
+      "toNode": "n_storage_savescore",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_utils_storage_js_storage_getscores",
+      "fromNode": "n_src_utils_storage_js",
+      "toNode": "n_storage_getscores",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_utils_storage_js_storage_trackmissed",
+      "fromNode": "n_src_utils_storage_js",
+      "toNode": "n_storage_trackmissed",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_utils_storage_js_storage_getmissed",
+      "fromNode": "n_src_utils_storage_js",
+      "toNode": "n_storage_getmissed",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_utils_storage_js_storage_clearmissed",
+      "fromNode": "n_src_utils_storage_js",
+      "toNode": "n_storage_clearmissed",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_storage_getscores_fulltest_fulltest",
+      "fromNode": "n_storage_getscores",
+      "toNode": "n_fulltest_fulltest",
+      "label": "calls [INFERRED]"
+    },
+    {
+      "id": "e_storage_getmissed_quizgenerator_quizgenerator",
+      "fromNode": "n_storage_getmissed",
+      "toNode": "n_quizgenerator_quizgenerator",
+      "label": "calls [INFERRED]"
+    },
+    {
+      "id": "e_src_components_chatbot_jsx_chatbot_chatbot",
+      "fromNode": "n_src_components_chatbot_jsx",
+      "toNode": "n_chatbot_chatbot",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_pages_missedquestions_jsx_missedquestions_missedquestions",
+      "fromNode": "n_src_pages_missedquestions_jsx",
+      "toNode": "n_missedquestions_missedquestions",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_pages_fulltest_jsx_fulltest_fulltest",
+      "fromNode": "n_src_pages_fulltest_jsx",
+      "toNode": "n_fulltest_fulltest",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_pages_progress_jsx_progress_progress",
+      "fromNode": "n_src_pages_progress_jsx",
+      "toNode": "n_progress_progress",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_pages_studyguide_jsx_studyguide_studyguide",
+      "fromNode": "n_src_pages_studyguide_jsx",
+      "toNode": "n_studyguide_studyguide",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_pages_quizgenerator_jsx_quizgenerator_quizgenerator",
+      "fromNode": "n_src_pages_quizgenerator_jsx",
+      "toNode": "n_quizgenerator_quizgenerator",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_pages_flashcards_jsx_flashcards_shufflearray",
+      "fromNode": "n_src_pages_flashcards_jsx",
+      "toNode": "n_flashcards_shufflearray",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_pages_flashcards_jsx_flashcards_flashcards",
+      "fromNode": "n_src_pages_flashcards_jsx",
+      "toNode": "n_flashcards_flashcards",
+      "label": "contains [EXTRACTED]"
+    }
+  ]
+}
